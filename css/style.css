@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto Slab", serif;
+    background-color: #457b9d;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    color: #f1faee;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    border: 6px solid black;
+    background: #1d3557;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    height: 5rem;
+
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+.navbar-title,
+.navbar-download {
+    font-family: "Caveat", cursive;
+    font-size: 3rem;
+    flex-grow: 1;
+    margin-left: 100px;
+}
+
+.navbar-link-div {
+    margin: 8rem;
+    flex-grow: 1;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar-links {
+    text-decoration: none;
+    color: #f1faee;
+    font-family: "Agbalumo", Courier, monospace;
+}
+.navbar-links:hover {
+    text-decoration: none;
+    color: #a53f26;
+    font-size: larger;
+}
+#dl-resume {
+    margin-top: 1rem;
+    height: 3rem;
+    width: 3rem;
+}
+.about {
+    margin-top: 1rem;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    height: 100vh;
+}
+.about-img-div {
+    margin-right: 8rem;
+    margin-top: 10rem;
+}
+.about-img {
+    height: 18rem;
+    width: 15rem;
+    border-radius: 2%;
+    box-shadow: #1d3557 0px 0px 0px 3px, #000000 0px 0px 0px 6px;
+    transition: 0.5s ease;
+}
+.about-img:hover {
+    transform: scale(1.3);
+    transition: 0.5s ease;
+    box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000,
+        4px 4px #000000, 5px 5px #000000, 6px 6px #000000;
+}
+.about-text {
+    margin-top: 10rem;
+    margin-left: 8rem;
+    height: 20rem;
+    width: 20rem;
+}
+.about-text-heading {
+    font-family: "Agbalumo", Courier, monospace;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.about-text-p {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem auto;
+}
+.waving-hand {
+    font-size: 4rem;
+    animation: wave 1s 0s 2;
+    transform-origin: 75% 75%;
+    display: inline-block;
+}
+
+.waving-hand:hover {
+    animation: wave 1s 0s infinite;
+    transform-origin: 75% 75%;
+    display: inline-block;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.project-item {
+    width: 40rem;
+    text-align: center;
+    border-radius: 2rem;
+    background: #1d3557;
+    box-shadow: #1d3557 0px 0px 0px 3px, #f8f8f8 0px 0px 0px 6px,
+        #ffffff 0px 0px 0px 9px, #1d3557 0px 0px 0px 12px,
+        #1d3557 0px 0px 0px 15px;
+}
+
+.project-item-header {
+    font-family: "Agbalumo", Courier, monospace;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+.project-item-p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem;
+    font-family: "Roboto Slab", serif;
+}
+#project-item-image {
+    width: auto;
+    height: 10rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.skills {
+    margin: 7rem;
+}
+.skills-header {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Agbalumo", Courier, monospace;
+}
+.skills-div {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skills-text {
+    border: 0.2rem solid #1d3557;
+    border-radius: 0.5em;
+    display: flex;
+    width: 15%;
+    height: 10rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem;
+    transition: 0.3s ease;
+}
+.skills-text:hover {
+    border: 0.2rem solid #fff;
+    border-radius: 0.5em;
+    transform: scale(1.2);
+    transition: 0.3s ease;
+    box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000,
+        4px 4px #000000, 5px 5px #000000, 6px 6px #000000;
+}
+.skills-text-logo {
+    margin: 2rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 40%;
+}
+.skills-text-logo:hover {
+    margin: 2rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 40%;
+}
+.skills-text-name {
+    margin: 1rem;
+}
+.project-header {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Agbalumo", Courier, monospace;
+    margin-bottom: 2rem;
+}
+
+.contact-me {
+    height: 22rem;
+    width: 40rem;
+    border-radius: 2rem;
+    background: #1d3557;
+    box-shadow: #1d3557 0px 0px 0px 3px, #ffffff 0px 0px 0px 6px,
+        #ffffff 0px 0px 0px 9px, #1d3557 0px 0px 0px 12px,
+        #1d3557 0px 0px 0px 15px;
+    margin: 10rem auto;
+}
+.contact-me-header {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Agbalumo", Courier, monospace;
+}
+.contact-me-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-fields-0 {
+    margin: 1rem;
+    height: 2rem;
+    width: 22rem;
+    border-radius: 0.5rem;
+}
+.input-fields-1 {
+    margin-bottom: 1rem;
+    height: 8rem;
+    width: 22rem;
+    border-radius: 0.5rem;
+    resize: none;
+}
+.btn-submit {
+    font: inherit;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 0.5rem;
+    box-shadow: #000000 4px 4px;
+}
+.btn-submit:hover {
+    transform: scale(1.3);
+}
+.btn-submit:active {
+    box-shadow: none;
+}
+.footer-div {
+    width: 100%;
+    height: 5rem;
+    background: #1d3557;
+    border-top: #000000 6px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4rem 4rem 0 0;
+}
+.footer-socials-img {
+    height: 2rem;
+    width: auto;
+    margin: 0 0.5rem;
+}
+.footer-socials-img:hover {
+    transform: scale(2);
+}
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(16deg);
+    }
+    20% {
+        transform: rotate(-6deg);
+    }
+    30% {
+        transform: rotate(16deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(16deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

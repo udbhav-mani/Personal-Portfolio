@@ -1,0 +1,19 @@
+{
+    "projectsData": [
+        {
+            "name": "WanderPedia - Your Travel Buddy",
+            "details": "Implementation of a highly advanced travel companion application that utilizes Google Maps, Geolocation, Google Maps API, specialized Rapid APIs",
+            "src": "../assets/img/wanderpedia.png"
+        },
+        {
+            "name": "Securify",
+            "details": "Face recognition smart door surveillance assistant using OpenCV and text to speech conversion library",
+            "src": "../assets/img/open-cv.png"
+        },
+        {
+            "name": "Fiesta management system",
+            "details": "A full fledged Management System designed for Fiesta Cafeteria, which would prove to be useful for every employee working at Advant. It contains various advanced functionalities like Add/Update/Propose Menu for a day, Place Order, View/Update Balance",
+            "src": "../assets/img/fiesta.png"
+        }
+    ]
+}
