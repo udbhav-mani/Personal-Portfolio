@@ -150,7 +150,7 @@ body {
 }
 
 .skills {
-    margin: 7rem;
+    margin: 9rem;
 }
 .skills-header {
     text-align: center;
@@ -204,6 +204,16 @@ body {
     font-size: 3rem;
     font-family: "Agbalumo", Courier, monospace;
     margin-bottom: 2rem;
+}
+.blogs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.blog {
+    margin: 2rem 2rem;
+    height: 10000px;
+    width: 120;
 }
 
 .contact-me {
@@ -271,7 +281,7 @@ body {
     margin: 0 0.5rem;
 }
 .footer-socials-img:hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 @keyframes wave {
     0% {
